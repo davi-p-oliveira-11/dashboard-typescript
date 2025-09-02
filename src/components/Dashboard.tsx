@@ -1,7 +1,14 @@
+import Sidebar from "./Sidebar"
+import Table from "./Table"
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className="flex h-screen">
+      <Sidebar />
+      <div className="flex-1 bg-gray-900">
+        <Table />
+      </div>
+    </div>
   )
 }
 
