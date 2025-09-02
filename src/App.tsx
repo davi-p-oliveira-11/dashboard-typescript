@@ -1,11 +1,10 @@
+import Dashboard from "./components/Dashboard";
 
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-     <h2 className="text-3xl font-bold underline">App</h2>
-    </>
+    <div>
+       <Dashboard />
+    </div>
   )
 }
 
